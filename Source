@@ -1,11 +1,1 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local ReturnLS = ReplicatedStorage:FindFirstChild("ReturnLS")
-
-if not ReturnLS then
-	local ReturnLS = Instance.new("BindableFunction")
-	ReturnLS.Name = "ReturnLS"
-	ReturnLS.Parent = ReplicatedStorage
-	ReturnLS.OnInvoke = function() 
-		return true 
-	end
-end
+game.Workspace.Lobby.Lobby.TwitterPlug.Surface.SurfaceGui.Frame.Txt2.Text = "@????"
